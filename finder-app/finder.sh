@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 if [ ! $# -eq 2 ]
 then
     echo "Must specify filesdir and searchstr on the command line"
