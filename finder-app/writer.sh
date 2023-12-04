@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 if [ ! $# -eq 2 ]
 then
     echo "Must specify writefile and writestr on the command line"
