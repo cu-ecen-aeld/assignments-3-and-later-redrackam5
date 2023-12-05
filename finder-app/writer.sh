@@ -6,6 +6,8 @@ then
     exit 1
 fi
 
+direc=$(dirname $1)
+mkdir -p $direc
 echo $2 > $1
 
 retval=$(ls $1 | wc -l)
